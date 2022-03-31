@@ -14,7 +14,6 @@ public class CatTest {
     }
 
     @Test
-    @Ignore
     public void checkCatCanGoToSleep() {
         Cat domesticCat = new DomesticCat();
         domesticCat.goToSleep();

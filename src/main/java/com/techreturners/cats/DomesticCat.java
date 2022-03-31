@@ -1,14 +1,16 @@
 package com.techreturners.cats;
 
 public class DomesticCat implements Cat {
+    private boolean isAsleep = false;
+
     @Override
     public boolean isAsleep() {
-        return false;
+        return isAsleep;
     }
 
     @Override
     public void goToSleep() {
-
+        isAsleep = true;
     }
 
     @Override
