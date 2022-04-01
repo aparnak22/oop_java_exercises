@@ -24,7 +24,7 @@ public class DomesticCat implements Cat {
 
     @Override
     public String getSetting() {
-        return "domestic";
+        return DOMESTIC;
     }
 
     @Override
