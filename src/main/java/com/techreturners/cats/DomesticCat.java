@@ -1,6 +1,7 @@
 package com.techreturners.cats;
 
 public class DomesticCat implements Cat {
+    final static String DOMESTIC = "domestic";
     private boolean isAsleep = false;
 
     @Override
