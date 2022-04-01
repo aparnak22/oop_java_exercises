@@ -26,7 +26,7 @@ public class DomesticCat implements Cat {
 
     @Override
     public int getAverageHeight() {
-        return 0;
+        return 23;
     }
 
     @Override
