@@ -1,6 +1,8 @@
 package com.techreturners.cats;
 
 public class LionCat implements Cat {
+
+
     @Override
     public boolean isAsleep() {
         return false;
@@ -28,6 +30,6 @@ public class LionCat implements Cat {
 
     @Override
     public String eat() {
-        return null;
+        return "Roar!!!!";
     }
 }

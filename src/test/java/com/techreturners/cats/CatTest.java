@@ -47,7 +47,6 @@ public class CatTest {
 
 
     @Test
-    @Ignore
     public void feedTheLion() {
         Cat lionCat = new LionCat();
         assertEquals("Roar!!!!", lionCat.eat());
