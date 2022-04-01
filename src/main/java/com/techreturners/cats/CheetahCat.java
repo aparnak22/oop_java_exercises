@@ -28,6 +28,6 @@ public class CheetahCat implements Cat {
 
     @Override
     public String eat() {
-        return null;
+        return "Zzzzzzz";
     }
 }
