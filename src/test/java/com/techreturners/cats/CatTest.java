@@ -59,7 +59,6 @@ public class CatTest {
     }
 
     @Test
-    @Ignore
     public void feedTheCat() {
         Cat domesticCat = new DomesticCat();
         assertEquals("Purrrrrrr", domesticCat.eat());

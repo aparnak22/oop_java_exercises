@@ -33,6 +33,6 @@ public class DomesticCat implements Cat {
 
     @Override
     public String eat() {
-        return null;
+        return "Purrrrrrr";
     }
 }
