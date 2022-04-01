@@ -3,6 +3,7 @@ package com.techreturners.cats;
 public class DomesticCat implements Cat {
     final static String DOMESTIC = "domestic";
     final static int AVERAGE_HEIGHT = 23;
+    public static final String PURR = "Purrrrrrr";
 
     private boolean isAsleep = false;
 
@@ -33,6 +34,6 @@ public class DomesticCat implements Cat {
 
     @Override
     public String eat() {
-        return "Purrrrrrr";
+        return PURR;
     }
 }
