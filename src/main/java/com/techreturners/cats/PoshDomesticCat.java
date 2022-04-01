@@ -8,6 +8,9 @@ public class PoshDomesticCat extends DomesticCat{
 
     @Override
     public String eat() {
-        return REMARK;
+        Random randomNo = new Random();
+        if ( randomNo.nextBoolean() )
+            return REMARK;
+        else return super.eat();
     }
 }
