@@ -1,6 +1,5 @@
 package com.techreturners.cats;
 
-import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -62,5 +61,13 @@ public class CatTest {
     public void feedTheCat() {
         Cat domesticCat = new DomesticCat();
         assertEquals("Purrrrrrr", domesticCat.eat());
+    }
+
+    @Test
+    public void feedThePoshCat() {
+        Cat domesticCat = new PoshDomesticCat();
+
+        assertEquals("It will do I suppose", domesticCat.eat());
+
     }
 }
