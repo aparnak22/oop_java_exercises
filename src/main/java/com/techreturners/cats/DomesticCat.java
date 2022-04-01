@@ -2,6 +2,8 @@ package com.techreturners.cats;
 
 public class DomesticCat implements Cat {
     final static String DOMESTIC = "domestic";
+    final static int AVERAGE_HEIGHT = 23;
+
     private boolean isAsleep = false;
 
     @Override
@@ -26,7 +28,7 @@ public class DomesticCat implements Cat {
 
     @Override
     public int getAverageHeight() {
-        return 23;
+        return AVERAGE_HEIGHT;
     }
 
     @Override
