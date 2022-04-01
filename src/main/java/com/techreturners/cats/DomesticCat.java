@@ -15,7 +15,7 @@ public class DomesticCat implements Cat {
 
     @Override
     public void wakeUp() {
-
+        isAsleep = false;
     }
 
     @Override
