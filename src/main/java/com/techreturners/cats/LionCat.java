@@ -23,7 +23,7 @@ public class LionCat implements Cat {
 
     @Override
     public int getAverageHeight() {
-        return 0;
+        return 1100;
     }
 
     @Override

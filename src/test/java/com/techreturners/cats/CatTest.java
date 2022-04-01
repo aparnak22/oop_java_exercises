@@ -40,9 +40,7 @@ public class CatTest {
         assertEquals(23, domesticCat.getAverageHeight());
     }
 
-    @Test
-    @Ignore
-    public void checkLionHeight() {
+    @Test public void checkLionHeight() {
         Cat lionCat = new LionCat();
         assertEquals(1100, lionCat.getAverageHeight());
     }
