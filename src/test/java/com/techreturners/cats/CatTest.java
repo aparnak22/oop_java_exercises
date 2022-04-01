@@ -29,7 +29,6 @@ public class CatTest {
     }
 
     @Test
-    @Ignore
     public void checkCatSetting() {
         Cat domesticCat = new DomesticCat();
         assertEquals("domestic", domesticCat.getSetting());
