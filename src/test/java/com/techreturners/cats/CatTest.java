@@ -63,4 +63,25 @@ public class CatTest {
         assertEquals("Purrrrrrr", domesticCat.eat());
     }
 
+    @Test
+    public void feedThePoshCat() {
+        Cat domesticCat = new PoshDomesticCat();
+
+        String eatResult ;
+        int purrCount = 0;
+        int notpurrCount = 0;
+
+        //Act : Run the eat() method 5 times
+        for (int i = 0; i < 5; i++) {
+            eatResult = domesticCat.eat();
+            if ("It will do I suppose".equals(eatResult)) notpurrCount++;
+                else if ("Purrrrrrr".equals(eatResult)) purrCount++;
+
+        }
+
+        //The cat should purr and remarl atleast once each in the 5 times that it eats.
+        assertTrue(purrCount > 0 );
+        assertTrue(notpurrCount > 0 );
+
+    }
 }
