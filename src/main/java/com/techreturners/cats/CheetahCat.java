@@ -1,29 +1,12 @@
 package com.techreturners.cats;
 
-public class CheetahCat implements Cat {
-    @Override
-    public boolean isAsleep() {
-        return false;
-    }
+public class CheetahCat extends WildCat {
 
-    @Override
-    public void goToSleep() {
-
-    }
-
-    @Override
-    public void wakeUp() {
-
-    }
-
-    @Override
-    public String getSetting() {
-        return null;
-    }
+    private static final int AVERAGE_HEIGHT = 90;
 
     @Override
     public int getAverageHeight() {
-        return 0;
+        return AVERAGE_HEIGHT;
     }
 
     @Override
